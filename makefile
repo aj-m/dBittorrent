@@ -2,7 +2,7 @@
 CC = g++
 
 # Compiler flags
-CFLAGS = -g -Wall
+CFLAGS = -g -Wall -lboost_system
 
 # Source file
 SOURCE = src/main
