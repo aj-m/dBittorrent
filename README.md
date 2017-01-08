@@ -28,5 +28,6 @@
 Honestly I'm flying by the seat of my pants here.  
 My `include` directory links to `/usr/include`. If you're on Windows, it should  
 point to whatever directory you've got for storing headers, or you should tweak  
-`Makefile` yourself.
+`Makefile` yourself.  
+Once that's sorted, `make` in the project root and hope it doesn't explode.
 
