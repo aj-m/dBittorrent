@@ -31,7 +31,7 @@ TARGET		:=	$(notdir $(CURDIR))
 BUILD		:=	build
 SOURCES		:=	src
 DATA		:=	data
-INCLUDES	:=	/usr/include
+INCLUDES	:=	include
 #ROMFS		:=	romfs
 
 #---------------------------------------------------------------------------------
