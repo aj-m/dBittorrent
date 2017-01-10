@@ -8,8 +8,8 @@ int main(int argc, char **argv) {
 	gfxInitDefault();
 	consoleInit(GFX_TOP, NULL);
 
-	printf("Hello 3DS World!");
-
+	printf("Hello 3DS World!\n");
+	printf("This is AJ!\n");
 
 	// Main loop
 	while (aptMainLoop()) {
@@ -31,3 +31,4 @@ int main(int argc, char **argv) {
 	gfxExit();
 	return 0;
 }
+
