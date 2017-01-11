@@ -19,7 +19,7 @@ int main(int argc, char **argv) {
 
 		// Your code goes here
 		if (++i >= 60){
-			printf("Tick\n";
+			printf("Tick\n");
 			i = 0;
 		}	
 		u32 kDown = hidKeysDown();
