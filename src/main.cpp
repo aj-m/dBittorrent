@@ -8,8 +8,8 @@ int main(int argc, char **argv) {
 	gfxInitDefault();
 	consoleInit(GFX_TOP, NULL);
 
-	printf("Hello 3DS World!\n");
-	printf("This is AJ!\n");
+//	printf("Hello 3DS World!\n");
+	int i = 0;
 
 	// Main loop
 	while (aptMainLoop()) {
@@ -18,7 +18,10 @@ int main(int argc, char **argv) {
 		hidScanInput();
 
 		// Your code goes here
-
+		if (++i >= 60){
+			printf("Tick\n";
+			i = 0;
+		}	
 		u32 kDown = hidKeysDown();
 		if (kDown & KEY_START)
 			break; // break in order to return to hbmenu
