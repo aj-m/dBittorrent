@@ -3,7 +3,7 @@
 
 #include <3ds.h>
 
-string DecodeQR();
+char const* DecodeQR();
 bool ExportTorrent(char xtype, char const* torrentURI);
 
 int main(int argc, char **argv) {
