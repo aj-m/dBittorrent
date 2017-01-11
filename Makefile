@@ -32,6 +32,7 @@ BUILD		:=	build
 SOURCES		:=	src
 DATA		:=	data
 INCLUDES	:=	include
+APP_AUTHOR	:=	aj-m
 #ROMFS		:=	romfs
 
 #---------------------------------------------------------------------------------
