@@ -4,7 +4,7 @@
 #include <3ds.h>
 
 string DecodeQR();
-bool ExportTorrent(char xtype, string torrentURI);
+bool ExportTorrent(char xtype, char const* torrentURI);
 
 int main(int argc, char **argv) {
 
@@ -38,15 +38,18 @@ int main(int argc, char **argv) {
 	return 0;
 }
 
-string DecodeQR(){
+char const* DecodeQR(){
 	return "This function intentionally left blank";
 } 
 
-bool ExportTorrent(char xtype, string torrentURI){
-	string formats = "ihmqtf";	//i,h=hash, m=magnet, q=qr, t,f=.torrent
-	if(formats.find(lower(xtype) == -1){
-		return false;
+bool ExportTorrent(char xtype, char const* torrentURI){
+	char const* formats = "ihmqtfIHMQTF";	//i,h=hash, m=magnet, q=qr, t,f=.torrent
+	for(int i=0; formats[i]!=0;i++){
+		if(formats[i]==xtype){
+			printf("%c\n%s\n", xtype, torrentURI);
+			return true;
+		}
 	}
-	printf("%c\n%s\n", xtype, torrentURI);
-	return true;
+	return false;
 }
+
