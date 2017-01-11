@@ -3,6 +3,9 @@
 
 #include <3ds.h>
 
+string DecodeQR();
+bool ExportTorrent(char xtype, string torrentURI);
+
 int main(int argc, char **argv) {
 
 	gfxInitDefault();
@@ -35,3 +38,15 @@ int main(int argc, char **argv) {
 	return 0;
 }
 
+string DecodeQR(){
+	return "This function intentionally left blank";
+} 
+
+bool ExportTorrent(char xtype, string torrentURI){
+	string formats = "ihmqtf";	//i,h=hash, m=magnet, q=qr, t,f=.torrent
+	if(formats.find(lower(xtype) == -1){
+		return false;
+	}
+	printf("%c\n%s\n", xtype, torrentURI);
+	return true;
+}
