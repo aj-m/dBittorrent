@@ -27,7 +27,7 @@
 ##Building
 
 Honestly I'm flying by the seat of my pants here.  
-If you're on Windows, you may need to tweak `Makefile` to play nice with your includes.
+If you're on Windows, you may need to tweak `Makefile` to play nice with your includes.  
 Once that's sorted, `make` in the project root and hope it doesn't explode.
 
 ##Caveats
