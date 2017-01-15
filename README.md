@@ -22,6 +22,7 @@
 
 - [libtorrent-rasterbar](https://github.com/arvidn/libtorrent)
 - Boost (for libtorrent dependencies)
+- qrencode
 
 ##Building
 
