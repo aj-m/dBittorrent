@@ -1,10 +1,11 @@
 #include <string.h>
 #include <stdio.h>
-#include <qrencode.h>
+#include <quirc/quirc_internal.h>
 
 #include <3ds.h>
 
-char const* DecodeQR();
+//char const* DecodeQR();
+quirc_decode_error_t* DecodeQR();
 bool ExportTorrent(char xtype, char const* torrentURI);
 
 int main(int argc, char **argv) {
@@ -39,9 +40,17 @@ int main(int argc, char **argv) {
 	return 0;
 }
 
-char const* DecodeQR(){
-	return "This function intentionally left blank";
+/*
+ *
+ *   char const* DecodeQR(){
+ *   	return "This function intentionally left blank";
+ *   } 
+ * */
+
+quirc_decode_error_t* DecodeQR(){
+	return NULL;
 } 
+
 
 bool ExportTorrent(char xtype, char const* torrentURI){
 	char const* formats = "ihmqtfIHMQTF";	//i,h=hash, m=magnet, q=qr, t,f=.torrent
