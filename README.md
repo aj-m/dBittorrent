@@ -27,9 +27,7 @@
 ##Building
 
 Honestly I'm flying by the seat of my pants here.  
-My `include` directory links to `/usr/include`. If you're on Windows, it should  
-point to whatever directory you've got for storing headers, or you should tweak  
-`Makefile` yourself.  
+If you're on Windows, you may need to tweak `Makefile` to play nice with your includes.
 Once that's sorted, `make` in the project root and hope it doesn't explode.
 
 ##Caveats
