@@ -1,5 +1,6 @@
 #include <string.h>
 #include <stdio.h>
+#include <qrencode.h>
 
 #include <3ds.h>
 
