@@ -9,14 +9,14 @@
 
 ###Planned
 
-- Load from `.torrent` files
-- Load from magnet link/infohash
-- Load from QR code
-- Create torrents
-- Export to `.torrent` file
-- Export to magnet
-- Export to QR
-- Torrent management options
+- [ ] Load from `.torrent` files
+- [ ] oad from magnet link/infohash
+- [ ] Load from QR code
+- [ ] Create torrents
+- [ ] Export to `.torrent` file
+- [ ] Export to magnet
+- [ ] Export to QR
+- [ ] Torrent management options
 
 ##Dependencies
 
