@@ -10,7 +10,7 @@
 ###Planned
 
 - [ ] Load from `.torrent` files
-- [ ] oad from magnet link/infohash
+- [ ] Load from magnet link/infohash
 - [ ] Load from QR code
 - [ ] Create torrents
 - [ ] Export to `.torrent` file
