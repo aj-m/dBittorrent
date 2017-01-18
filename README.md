@@ -20,8 +20,7 @@
 
 ##Dependencies
 
-- [libtorrent-rasterbar](https://github.com/arvidn/libtorrent)
-- Boost (for libtorrent dependencies)
+- [libtransmission](https://github.com/transmission/transmission)
 - [quirc](https://github.com/dbeer/quirc)
 
 ##Building
