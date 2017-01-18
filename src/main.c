@@ -1,5 +1,6 @@
 #include <string.h>
 #include <stdio.h>
+#include <libtransmission/transmission.h>
 #include <quirc/quirc_internal.h>
 
 #include <3ds.h>
