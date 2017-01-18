@@ -6,8 +6,6 @@
 
 #include <3ds.h>
 
-//char const* DecodeQR();
-
 quirc_decode_error_t* DecodeQR();
 bool ExportTorrent(char xtype, char const* torrentURI);
 
@@ -16,8 +14,8 @@ int main(int argc, char **argv) {
 	gfxInitDefault();
 	consoleInit(GFX_TOP, NULL);
 
-//	printf("Hello 3DS World!\n");
 	int i = 0;
+	quirc_decode_error_t* qrbuff;
 
 	// Main loop
 	while (aptMainLoop()) {
@@ -42,13 +40,6 @@ int main(int argc, char **argv) {
 	gfxExit();
 	return 0;
 }
-
-/*
- *
- *   char const* DecodeQR(){
- *   	return "This function intentionally left blank";
- *   } 
- * */
 
 quirc_decode_error_t* DecodeQR(){
 	//Create decode context
