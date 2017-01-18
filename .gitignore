@@ -3,4 +3,6 @@ build/
 *.o
 *.3dsx
 *.smdh
+*.elf
+.sendtest.sh
 
