@@ -29,7 +29,7 @@ include $(DEVKITARM)/3ds_rules
 #---------------------------------------------------------------------------------
 TARGET		:=	$(notdir $(CURDIR))
 BUILD		:=	build
-SOURCES		:=	src
+SOURCES		:=	src include/quirc 
 DATA		:=	data
 INCLUDES	:=	include
 APP_AUTHOR	:=	aj-m
