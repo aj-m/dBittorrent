@@ -14,7 +14,8 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include "quirc_internal.h"
+//#include "quirc_internal.h"
+#include <quirc/quirc_internal.h>
 
 #include <string.h>
 #include <stdlib.h>

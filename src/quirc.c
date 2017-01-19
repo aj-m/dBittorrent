@@ -16,7 +16,8 @@
 
 #include <stdlib.h>
 #include <string.h>
-#include "quirc_internal.h"
+//#include "quirc_internal.h"
+#include <quirc/quirc_internal.h>
 
 const char *quirc_version(void)
 {
