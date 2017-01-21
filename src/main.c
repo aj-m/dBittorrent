@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <libtransmission/transmission.h>
 #include <quirc/quirc.h>
+#include <libqrencode/qrencode.h>
 
 #include <3ds.h>
 
