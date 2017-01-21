@@ -17,8 +17,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <math.h>
-//#include "quirc_internal.h"
-#include <quirc/quirc_internal.h>
+#include "quirc_internal.h"
 
 /************************************************************************
  * Linear algebra routines
