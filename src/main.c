@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <libtransmission/transmission.h>
-#include <quirc/quirc_internal.h>
+#include <quirc/quirc.h>
 
 #include <3ds.h>
 
