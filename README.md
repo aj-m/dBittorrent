@@ -20,8 +20,9 @@
 
 ##Dependencies
 
-- [libtransmission](https://github.com/transmission/transmission)
-- [quirc](https://github.com/dbeer/quirc)
+- [libtransmission](https://github.com/transmission/transmission) for torrent management
+- [quirc](https://github.com/dbeer/quirc) for decoding QR codes
+- [libqrencode](https://github.com/fukuchi/libqrencode) for creating QR codes
 
 ##Building
 
