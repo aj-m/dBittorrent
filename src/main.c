@@ -1,13 +1,12 @@
 #include <string.h>
+#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <qrhandlers.h>
 #include <libtransmission/transmission.h>
-#include <quirc/quirc.h>
-#include <libqrencode/qrencode.h>
 
 #include <3ds.h>
 
-quirc_decode_error_t* DecodeQR();
 bool ExportTorrent(char xtype, char const* torrentURI);
 
 int main(int argc, char **argv) {
@@ -43,26 +42,6 @@ int main(int argc, char **argv) {
 	gfxExit();
 	return 0;
 }
-
-quirc_decode_error_t* DecodeQR(){
-	//Create decode context
-	struct quirc *qr;
-	qr = quirc_new();
-	if(!qr){
-		perror("Failed to allocate memory");
-		abort();
-	} else {
-		perror("Allocated memory");
-	}
-
-	//Decoding happens here
-	//Do_Something();
-
-	//Clean up and return
-	quirc_destroy(qr);
-	return NULL;
-} 
-
 
 bool ExportTorrent(char xtype, char const* torrentURI){
 	char const* formats = "ihmqtfIHMQTF";	//i,h=hash, m=magnet, q=qr, t,f=.torrent
