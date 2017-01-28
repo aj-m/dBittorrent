@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include <qrhandlers.h>
 
 quirc_decode_error_t* DecodeQR(){
