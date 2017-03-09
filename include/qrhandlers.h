@@ -8,4 +8,5 @@
 
 quirc_decode_error_t* DecodeQR();
 bool EncodeQR();
+bool EncodeQR(const char* path);
 

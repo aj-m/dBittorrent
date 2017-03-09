@@ -24,4 +24,8 @@ bool EncodeQR(){
 	return 1;
 }
 
+bool EncodeQR(const char* path){
+	printf("EncodeQR\n%s\n",path);
+	return 1;
+}
 
