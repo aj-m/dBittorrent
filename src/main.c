@@ -24,7 +24,7 @@ int main(int argc, char **argv) {
 		hidScanInput();
 
 		if (i == 0){
-			qrbuff = DecodeQR();
+			qrbuff = DecodeQR(""); //put actual path later
 		}
 		if (++i >= 60){
 			printf("Tick\n");

@@ -6,7 +6,6 @@
 #include <quirc/quirc.h>
 #include <libqrencode/qrencode.h>
 
-quirc_decode_error_t* DecodeQR();
-bool EncodeQR();
+quirc_decode_error_t* DecodeQR(const char* path);
 bool EncodeQR(const char* path);
 

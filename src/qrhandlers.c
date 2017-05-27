@@ -1,6 +1,6 @@
 #include <qrhandlers.h>
 
-quirc_decode_error_t* DecodeQR(){
+quirc_decode_error_t* DecodeQR(const char* path){
 	//Create decode context
 	struct quirc *qr;
 	qr = quirc_new();
@@ -17,11 +17,6 @@ quirc_decode_error_t* DecodeQR(){
 	//Clean up and return
 	quirc_destroy(qr);
 	return NULL;
-}
-
-bool EncodeQR(){
-	printf("ExportQR\n");
-	return 1;
 }
 
 bool EncodeQR(const char* path){
